@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title> Camisetas Femininas - Turn the Street King </title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="icon" type="image/jpg" href="./IMG/logolaranja.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <!--CABEÇALHO 1-->
+        <header class="header">
+                <div class="header-container">
+                    <div class="logo">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Home/index.html">
+                            <img src="./IMG/logolaranja.png" width="120px" >
+                        </a>
+                    </div>
+        
+                    <!--barra de pesquisa-->
+                    <div class="search">
+                        <input type="text" name="search" placeholder="O que você procura?">
+                        <div class="lupa">
+                            <img src="./IMG/LUPATURN.png"  alt="Buscar" width="35px" height="35px">
+                        </div>
+                    </div>
+                        
+                    <!--Entrar ou cadastrar-->
+                    <div class="ent-cad">
+                        <p>Seja bem-vindo!</p>
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/index.html">Entre</a>
+                                ou 
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Cad.%20F/index.html">Cadastre-se</a>
+                    </div>
+                    <div class="car-comp">
+                        <a href=""><img src="./IMG/carrinhoo.png" class="button" width="40px" height="40px"></a>
+                    </div>
+                </div>
+        </header>
+        <!--FIM CABEÇALHO 1-->
+
+        <!--CABEÇALHO 2-->
+        <header class="header-2">
+                
+            <!--Masc, Fem e Promo-->
+                <div class="categories">
+                    <ul> 
+                        <li class="menu-item masc">
+                            <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Vitri.%20Prod.%20CMasc/PagCamMasc.html">Masculino</a>
+                        </li>
+                        <li class="menu-item fem">
+                            <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Vitri.%20Prod.%20CFem/PagCamFem.html">Feminino</a>
+                        </li>
+                        <li class="menu-item prom">
+                            <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Lanca/PagLanca.html">Lançamentos</a>
+                        </li>
+                    </ul>
+                </div>
+        </header>
+        
+        <!--CONTEÚDO PRINCIPAL-->
+
+        <main>
+            <!--titúlo da página-->
+            <span>
+                <h2 class="title-section"> Camisetas femininas</h2>
+            </span>
+            <div class="container">
+                <!--caixa de seleção-->
+                    <div class="selection-box">
+                        <span>Classificar por:</span>
+                    </div>
+                                    
+                
+                <div class="catalog-content">
+                        
+                
+                </div>
+
+                <!--produtos-->
+                <div class="row">
+                    <div class="col-sm-6 col-md-4">
+                        <div class="col-content">
+                            <div class="catalog-content">
+                                <ul>
+                                    <li class="item-flex">
+                                        <div class="product">
+                                            <div class="image">
+                                                <a href="#" class="space-image large"> 
+                                                    <img src="./IMG/camturnpreta.png"  alt="Camiseta Turn">
+                                                </a>
+                                            </div>
+                                            <a href="" class="info-product">
+                                                <div class="product-name">Camiseta Turn "Paradise" Preta</div>
+                                                <div class="down-line">
+                                                    <div class="box-price">
+                                                        <div class="price-off">
+                                                            <span>
+                                                                <strong>R$ 44,90</strong>
+                                                            </span>
+                                                        </div>
+                                                        <div class="product-payment">
+                                                            <span class="txt-parcelas">
+                                                                <span class="preco-parc">
+                                                                    ou 
+                                                                </span>
+                                                                <strong class="quant-parc">
+                                                                      3x
+                                                                </strong>
+                                                            </span>
+                                                            <span class="preco-de">de</span>
+                                                            <span class="txt-quantparcelas">
+                                                                <strong>R$ 14,97</strong>
+                                                            </span>
+                                                            <span class="sjuros">sem juros</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>                                         
+                                        </div>
+                                        <div class="btn">
+                                            <a href=""> <button type="button" class="btn btn-details">ver detalhes</button></a>
+                                        </div>
+                                    </li>
+                                </ul>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main> 
+            
+                <!--LINHA INFERIOR-->
+                <div class="lin-inf">
+                <hr/>
+                </div>
+
+        <!--Rodapé-->
+        <footer class="footer">  
+
+            <!--INSTITUCIONAL-->
+            <div class="inst">
+                <p>Institucional</p>
+                        <hr size="1" color="orangered">
+                <ul>
+                    <li class="text-item empresa">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/empresa.html">Empresa</a>
+                    </li>
+                    <li class="text-item comocomp">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/como%20comprar.html">Como comprar</a>
+                    </li>
+                    <li class="text-item segurança">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/seguran%C3%A7a.html">Segurança</a>
+                    </li>
+                    <li class="text-item envio">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/envio.html">Envio</a>
+                    </li>
+                    <li class="text-item pagam">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/pagamento.html">Pagamento</a>
+                    </li>
+                    <li class="text-item troca">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/pol%C3%ADtica%20de%20troca.html">Política de troca</a>
+                    </li>
+                    <li class="text-item contato">
+                        <a href="file:///C:/Users/Akluuk/Desktop/Projeto%20Tks/Pag.%20Login/HTML/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--ATENDIMENTO-->
+            <div class="aten">
+
+                <div class="aten-titulo">
+                    <p>Atendimento</p>
+                </div>
+
+                    <hr size="1" color="orangered">
+
+                <ul>
+                    <!--Número de telefone-->
+                    <li class="aten-item tel">
+                        <div class= "imagem img-1">
+                            <img src="./IMG/telefone.png" width="28px" height="28px">
+                        </div>
+                            <p>(41) 0000-0000</p>
+                    </li>
+                    
+                    <!--Email da loja-->
+                    <li class="aten-item email">
+                        <div class= "imagem img-2">
+                            <img src="./IMG/email.png" width="25px" height="25px">
+                        </div>
+                            <a href="">turntks@gmail.com</a>
+                    </li>
+
+                    <!--Horário de atendimento-->
+                    <li class="aten-item hor-aten">
+                        <div class= "imagem img-3">
+                            <img src="./IMG/horario.png" width="25px" height="25px">
+                        </div>
+                            <p> Segunda a sexta das 9h30 
+                                ás 18h e aos Sábados das 
+                                9h30 ás 17h.</p>
+                    </li>
+
+                    <!--Whatsapp da loja-->
+                    <li class="aten-item whats">
+                        <div class= "imagem img-4">
+                            <img src="./IMG/whatsapp.png">
+                        </div>
+                            <a href="https://api.whatsapp.com/send?phone=5541995298257">(41) 00000-0000</a>
+                    </li>
+                </ul>
+            </div>
+                <!--Segurança da loja-->
+                <div class="seg">
+                    <p>Segurança</p>
+                    <hr size="1" color="orangered">
+                    <img src="./IMG/segu.gif" href="#" width="100px">
+                </div>
+
+                    <!--Formas de Pagamento-->
+                <div class="fpagm">
+                    <p>Forma de Pagamento</p>
+                    <hr size="1" color="orangered">
+                    <img src="./IMG/boleto.png" width="50px">
+                </div>
+
+                    <!--Redes Sociais-->
+                <div class="redes">
+                    <p>Redes Sociais</p>
+                    <hr size="1" color="orangered">
+                    <a href="#"> <img src="./IMG/facebook.png" width="30px"></a>
+                    <a href="#"> <img src="./IMG/instagram.webp" width="30px"></a>
+                </div>        
+        </footer>        
+    </body>
+     <!--JS BOOTSTRAP-->
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

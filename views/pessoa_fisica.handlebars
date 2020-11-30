@@ -1,0 +1,67 @@
+<meta charset="utf-8">
+<title> Cadastro - Turn the Street King </title>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="icon" type="image/jpg" href="./IMG/logolaranja.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+<!--CONTEÚDO PRINCIPAL-->
+<main>
+
+    <!--titulo-->
+    <div class="inf">
+        <div class="lin">
+            <hr size="2" color="orangered">
+        </div>
+        <div class="tcad">
+            <h3>Cadastre-se</h3>
+        </div>
+        <div class="sele">
+            <a href="/cadastro/PF">
+                <input type="radio" name="fj" value="fisica">
+                <label for="f">Física</label>
+            </a>
+            <a href="/cadastro/PJ">
+                <input type="radio" name="fj" value="juridica">
+                <label for="j">Jurídica</label>
+            </a>
+        </div>
+    </div>
+
+    <!--Cadastro-->
+    <div class="cadastro">
+
+            <!--Dados de login-->
+        <form action="/cadastro/PF" method="POST">
+            <p>Nome Completo</p>
+                <input type="text" id="nome" name="name" placeholder="Digite seu nome" maxlength="40" required>
+
+            <p>E-mail</p>
+            <input type="text" required="required" id="email" name="email" placeholder="Digite seu e-mail">
+
+            <div id="nas">
+            <p>Nascimento</p>
+                    <input type="date" id="nascimento" name="birthday" required>
+            </div>
+
+            <div id="cpf">
+            <p>CPF</p>
+                <input type="text" id="cpf" name="ssn" placeholder="Ex.: 000.000.000-00" maxlength="14" required>
+            </div>
+
+            <p>Senha</p>
+                <input type="password" id="senha" name="password" placeholder="********" maxlength="8" required>
+
+            <div id="pass">
+                <p>Repetir Senha</p>
+                    <input type="password" id="form" name="repeat-password" placeholder="********" maxlength="8" required> <br>
+            </div>
+            <div class="inscr">
+                <p> Ao criar uma conta, você concorda com a nossa <a href="">Política de Privacidade</a>?</p>
+                <input type="radio" name="ofer" value="ofer e descon">
+                <label for="ofer">Quero receber descontos e ofertas exclusivas por e-mail.</label>
+            </div>
+
+                    <button type="submit" id="form">Cadastar</button>
+        </form>
+    </div>
+</main>  
